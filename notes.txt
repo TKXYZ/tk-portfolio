@@ -1,0 +1,1 @@
+Deploying Angular Project to GitHub Pages: https://www.npmjs.com/package/angular-cli-ghpages

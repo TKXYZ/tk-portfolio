@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   location: String = "👁‍🗨 Providence";
   projects: String = "My Projects";
 
-  constructor(private router: Router) { }
+  constructor() { }
 
   ngOnInit(): void {
   }

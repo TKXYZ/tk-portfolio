@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   name: String = "TK Tran";
   slogan: String = "Software Engineer";
-  location: String = "👁‍🗨 Providence";
+  location: String = "Providence, RI";
   projects: String = "My Projects";
 
   constructor() { }

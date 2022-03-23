@@ -1,2 +1,2 @@
 Deploying Angular Project to GitHub Pages: https://www.npmjs.com/package/angular-cli-ghpages
-  ng deploy --base-href=/tk-portfolio/
+  ng deploy --base-href https://tkxyz.github.io/tk-portfolio/

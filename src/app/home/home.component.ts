@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Type } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  name: String = "TK Tran";
+  name: String = "*";
   slogan: String = "Software Engineer";
   location: String = "Providence, RI";
   projects: String = "My Projects";
@@ -14,5 +14,10 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.welcome();
+  }
+
+  welcome(): void {
+    console.log("Hello, tk-portfolio!")
   }
 }

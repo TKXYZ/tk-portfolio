@@ -1,7 +1,7 @@
 <body>
   <header class="mdl-layout__header mdl-layout__header--transparent">
     <div id="portfolio-body">
-      <h1>{{name}}</h1>
+      <h1 id="name">{{name}}</h1>
       <div id="slogan">
         <span>{{slogan}}</span>
       </div>
@@ -11,6 +11,12 @@
       <div id="projects">
         <a routerLink="/projects" routerLinkActive="active"><span>{{projects}}</span></a>
       </div>
+
+      <!-- TypeIt -->
+      <div>
+        <span id="test1">TypeIt will start typing here!</span>
+      </div>
+
     </div>
   </header>
   <footer class="mdl-mini-footer">

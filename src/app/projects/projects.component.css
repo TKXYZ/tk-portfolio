@@ -1,0 +1,9 @@
+.container {
+  height: 100%;
+  display: flex;
+  /* Align horizontally */
+  justify-content: center;
+  /* Align vertically */
+  align-items: center;
+  text-transform: uppercase;
+}

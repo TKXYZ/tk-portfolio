@@ -1,15 +1,14 @@
-console.log("Inside TypeIt.js");
+console.log("TypeIt.js working");
 
-// TypeIt (https://www.typeitjs.com/docs/vanilla/usage)
-new TypeIt("#test1", {
-  strings: "This will be typed!",
-  speed: 100,
-  lifeLike: true,
-  cursor: true,
-  cursorSpeed: 1000,
-  cursorChar: "|",
-  loop: true,
-}).go();
+// new TypeIt("#test1", {
+//   strings: "This will be typed!",
+//   speed: 100,
+//   lifeLike: true,
+//   cursor: true,
+//   cursorSpeed: 1000,
+//   cursorChar: "|",
+//   loop: true,
+// }).go();
 
 // new TypeIt('#test2', {
 //   speed: 45

@@ -19,51 +19,35 @@ header {
   padding: 0px 2.0em;
 }
 
-h1 {
-  font-weight: lighter;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 13px;
-  margin-bottom: 0px;
-}
-
 footer {
+  color: white;
   background-color: black;
-  color: #ffffff;
   position: fixed;
-  padding: 0.5rem;
+  padding: 1rem;
   bottom: 0;
   width: 100%;
-  z-index: 1;
 }
 
 #portfolio-body {
   margin: auto;
-  text-align: center;
+  text-align: right;
 }
 
-#slogan {
+#name {
+  color: white;
+  font-size: 64px;
   font-weight: lighter;
-  color: white;
   text-transform: uppercase;
-  letter-spacing: 6px;
-  font-size: 1.5em;
+  letter-spacing: 18px;
+  margin-bottom: 40px;
 }
 
-#location {
-  font-weight: normal;
+#slogan, #location, #projects {
   color: white;
-  text-transform: uppercase;
-  letter-spacing: 6px;
   font-size: 1.5em;
-}
-
-#projects {
-  font-weight: normal;
-  color: white;
+  font-weight: lighter;
   text-transform: uppercase;
-  letter-spacing: 6px;
-  font-size: 1.5em;
+  letter-spacing: 8px;
 }
 
 #footer-links {
